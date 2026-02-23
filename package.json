@@ -4,11 +4,11 @@
   "description": "AI-Based Visual Assistance System for Visually Impaired Users",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
+    "start": "node init && expo start",
     "android": "expo start --android",
     "web": "expo start --web",
     "server": "npm start --prefix server",
-    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "dev": "node init && concurrently \"npm run server\" \"npm start\"",
     "test": "jest",
     "lint": "eslint ."
   },

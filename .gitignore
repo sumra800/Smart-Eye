@@ -42,7 +42,6 @@ yarn-error.*
 
 # Local env files
 .env*.local
-.env
 
 # TypeScript
 *.tsbuildinfo
@@ -70,7 +69,6 @@ data/
 *.zip
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -78,3 +76,7 @@ data/
 
 # OS
 Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
